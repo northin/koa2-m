@@ -1,0 +1,26 @@
+{
+  "name": "koa2-demo",
+  "version": "1.0.0",
+  "description": "let's start write something with koa2",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "koa2"
+  ],
+  "author": "zcx",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "ioredis": "^3.1.4",
+    "jsonwebtoken": "^8.1.0",
+    "koa-logger": "^3.0.1",
+    "koa-router": "^7.2.1",
+    "koa-static": "^4.0.1",
+    "koa-view": "^2.1.0",
+    "koa2-cookie-session": "^0.0.1",
+    "mongoose": "^4.12.5"
+  }
+}
